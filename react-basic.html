@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Basics</title>
+  </head>
+  <body>
+    <div class="js-container"></div>
+    <script src="react-basics.js">
+        
+    </script>
+
+    <script src="https://unpkg.com/supersimpledev/react.js"></script>    
+    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script> 
+    <script src="https://unpkg.com/supersimpledev/babel.js"></script>  
+    <script type="text/babel"> //translating jsx code to js code 
+
+      
+      const div = (
+        <div>
+          <button>Hellooo</button>
+          <p>hey!!! All I am  kumar Raj Bogireddy</p>
+        </div>
+      );
+
+      const container = document.querySelector('.js-container');
+      ReactDOM.createRoot(container).render(div);
+    </script>
+  </body>
+</html>
